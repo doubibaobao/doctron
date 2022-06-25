@@ -87,6 +87,8 @@ http://127.0.0.1:8080/convert/html2pdf?u=doctron&p=lampnick&url=<url>
 ```
 ###### custom size
 ```
+1. create .doctron.yaml file.
+2. change .doctron.yaml attribute "convertTimeout" : 210000.
 http://192.168.10.10:8080/convert/html2pdf?u=doctron&p=lampnick&url=http://192.168.10.13:7797/1.html&paperwidth=12.0 (please run it after closing anti-virus software)
 http://127.0.0.1:8080/convert/html2pdf?u=doctron&p=lampnick&url=<url>&marginTop=0&marginLeft=0&marginRight=0&marginbottom=0&paperwidth=4.1  
 ```
